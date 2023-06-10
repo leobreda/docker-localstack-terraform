@@ -105,7 +105,7 @@ Instalando:
 
 ```
 chmod +x instalando-terraform.sh
-./instalando-terrafor.sh
+./instalando-terraform.sh
 ```
 
 Criando objetos no Localstack via Terraform:
