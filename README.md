@@ -84,7 +84,7 @@ Resultado esperado:
 
 Lendo mensagens no tópico:
 ```
-aws sqs receive-message --queue-url http://localhost:4566/000000000000/teste
+aws --endpoint-url=http://localhost:4566 sqs receive-message --queue-url http://localhost:4566/000000000000/teste
 ```
 Resultado esperado:
 ```
